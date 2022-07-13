@@ -21,7 +21,7 @@ useEffect(() => {
     })
     setProducts(allpost)
   })
-}, []);
+}, [firebase]);
   return (
     <div className="postParentDiv">
       <div className="moreView">

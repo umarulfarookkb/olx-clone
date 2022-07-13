@@ -125,7 +125,7 @@ const Createmul = () => {
             <br />
             <progress value={progress} max="100" />
             <br/>
-            {progress==100 ? <button onClick={handleSubmit} className="uploadBtn">Submit</button>:""}
+            {progress===100 ? <button onClick={handleSubmit} className="uploadBtn">Submit</button>:""}
          
         </div>
       </card>
